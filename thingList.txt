@@ -1,0 +1,197 @@
+thingList = {
+  kitforward: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  osd: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  energyIoT: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  nb_iot: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  logisenses: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  novagreen: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object] ]
+  },
+  loxbit: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  training: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object], [Object] ]
+  },
+  SwiftOneIoT: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  eva1234: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  eexme: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  dtc: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  thaivan: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  kuijung: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object] ]
+  },
+  pp_ontime: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  samtel: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  ktc: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  muvmi: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  new_domain: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  demo1: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object] ]
+  },
+  Buggy: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object], [Object] ]
+  },
+  asefa: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  Adrianfuchs: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  edison: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  Moritoring_Tools: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  cdg: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  Samart: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object], [Object] ]
+  },
+  '7peaks': {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object] ]
+  },
+  mdb: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  pre_sale: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  jumbo_elec: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  handysense: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  vstecs: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  Techm: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  ev_box: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  winai: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  exxme: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object] ]
+  },
+  SmartConnect: {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: []
+  },
+  'tnvsk-main': {
+    doc_count_error_upper_bound: 0,
+    sum_other_doc_count: 0,
+    buckets: [ [Object], [Object], [Object] ]
+  }
+}

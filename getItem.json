@@ -1,0 +1,23 @@
+{
+  "SerialValidation": [
+    {
+      "From": "${serial_number}",
+      "To": "${serial_number}"
+    }
+  ],
+  "AdditionalPackage": null,
+  "APIKey": "17F8E5CA-2808-11E5-8B2B-0DE5B7CA00B9",
+  "Username": "${user_name}",
+  "OMRLocation": "${warehourse_code}",
+  "Language": "EN",
+  "Device": "0",
+  "ProductCode": "",
+  "Qty": 1,
+  "IMEI": "${serial_number}",
+  "PriceLevel": "${price_level}",
+  "PackageCode": null,
+  "CustomerNumber": null,
+  "SubscriberNumber": null,
+  "BookingDate": "",
+  "ExtSerialValidation": "1"
+}

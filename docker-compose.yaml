@@ -1,0 +1,36 @@
+version: '1'
+
+service: 
+  mysql: 
+    image: mysql:5.7.20
+    restart: always
+    environment: 
+
+  dtaccall-smpp:
+    image: asia.gcr.io/vas-dev-tool/dtaccall-smpp:1.21
+    restart: always
+  
+  dtaccall-spg:
+    image: asia.gcr.io/vas-dev-tool/dtaccall-spg:2.14
+    networks: dtaccall-net
+    network-alias: 
+    restart: always
+    volumes: 
+      - /appdata/dtaccall/config/spg.config:/opt/spg/spg.config
+      - /data/logs/spg/:/opt/spg/logs
+
+
+CONTAINER ID   IMAGE                                            COMMAND                  CREATED         STATUS       PORTS                          NAMES
+4b5aa83bd24d   asia.gcr.io/vas-dev-tool/dtaccall-spg:2.14       "/opt/spg/entrypoint…"   4 days ago      Up 2 hours   0.0.0.0:23080->8080/tcp        dtaccall-spg
+a732388067c2   asia.gcr.io/vas-dev-tool/dtaccall-api:1.481      "docker-php-entrypoi…"   3 months ago    Up 2 hours   0.0.0.0:80->80/tcp             dtaccall-api
+0343027baf1b   asia.gcr.io/vas-dev-tool/dtaccall-smpp:1.21      "/opt/entrypoint.sh"     10 months ago   Up 2 hours   0.0.0.0:18080->8080/tcp        dtaccall-smpp
+289e218f8c02   asia.gcr.io/vas-dev-tool/dtaccall-eservice:0.3   "docker-entrypoint.s…"   10 months ago   Up 2 hours   0.0.0.0:8091->80/tcp           dtaccall-eservice
+be8b56f2023d   asia.gcr.io/vas-dev-tool/dtaccall-hms-push:0.8   "docker-entrypoint.s…"   12 months ago   Up 2 hours                                  dtaccall-hms-push
+e39c8e6ca612   asia.gcr.io/vas-dev-tool/dtaccall-dah-sms:0.14   "docker-entrypoint.s…"   20 months ago   Up 2 hours                                  dtaccall-dah-sms
+426e06aa5f9d   nginx:1.17.4                                     "nginx -g 'daemon of…"   20 months ago   Up 2 hours   80/tcp, 0.0.0.0:443->443/tcp   nginx
+af6ad301c637   hub.jugnuttha.com/dtaccall-apns:1.11             "/opt/entrypoint.sh"     22 months ago   Up 2 hours   0.0.0.0:30080->8080/tcp        dtaccall-apns
+dc7b10a76b04   hub.jugnuttha.com/dtaccall-wci-sms:0.03          "/opt/entrypoint.sh"     3 years ago     Up 2 hours   0.0.0.0:35080->8080/tcp        dtaccall-wci-sms
+799de9293d77   hub.jugnuttha.com/dtaccall-xmpp:0.06             "java -jar /opt/bin/…"   3 years ago     Up 2 hours   0.0.0.0:5235->5235/tcp         dtaccall-xmpp
+db984ddb965e   hub.jugnuttha.com/dtaccall-hss:1.00              "/opt/entrypoint.sh"     3 years ago     Up 2 hours   0.0.0.0:28080->8080/tcp        dtaccall-hss
+bb07aa94c754   mysql:5.7.20                                     "docker-entrypoint.s…"   3 years ago     Up 2 hours   0.0.0.0:3306->3306/tcp         dtaccall-mysql
+540d1d9ca871   phpmyadmin/phpmyadmin                            "/run.sh phpmyadmin"     3 years ago     Up 2 hours   0.0.0.0:8080->80/tcp           dtaccall-pma

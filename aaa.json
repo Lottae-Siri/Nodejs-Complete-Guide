@@ -1,0 +1,137 @@
+{
+  "_id": "66831876642",
+  "msisdn": "66831876642",
+  "userClass": "1",
+  "userType": "2",
+  "profileType": "1",
+  "status": NumberInt(22),
+  "accesschannel": "CCARE",
+  "serverReferenceCode": "5047321361628790283152557",
+  "serviceCode": "SUB00008800118",
+  "createdOn": "2021-08-13 00:44:43.202",
+  "updatedOn": "2021-08-13 00:44:45",
+  "activatedOn": "2021-08-13 00:44:45",
+  "chargeCode": "SUB00008800118177121732",
+  "lastBilledPrice": 0,
+  "lastBilledDate": "2021-08-13 00:44:45",
+  "renewalDate": "2024-05-08 00:44:45.487",
+  "contentDownloadCount": NumberInt(2),
+  "freeContentsCount": NumberInt(0),
+  "addOnPackDownloadCount": NumberInt(0),
+  "productIdentifier": "SUB00008800118",
+  "maxContentServiceCount": NumberInt(0),
+  "maxAddOnServiceCount": NumberInt(-1),
+  "maxAlaAKarteCount": NumberInt(0),
+  "cpLimitedCount": NumberInt(0),
+  "cpUNLimitedCount": NumberInt(0),
+  "corporateID": "",
+  "subscriptionId": "5047321361611037793246247",
+  "contentServiceInfoList": [
+    {
+      "status": NumberInt(1),
+      "accesschannel": "CCARE",
+      "serverReferenceCode": "5047321361628790283152557",
+      "createdOn": "2021-08-13 00:44:43.202",
+      "updatedOn": "",
+      "activatedOn": "2021-08-13 00:44:43",
+      "chargeCode": "SUB0001220019317721058",
+      "lastBilledPrice": 0,
+      "lastBilledDate": "2021-08-13 00:44:43",
+      "renewalDate": "2021-09-13 00:44:43.189",
+      "contentDownloadCount": NumberInt(0),
+      "freeContentsCount": NumberInt(0),
+      "exclusionServiceList": [
+        "SUB00012200815"
+      ],
+      "migration": "1",
+      "serviceIdentifier": "SUB00012200193",
+      "contentCharge": "1",
+      "subscriptionId": "",
+      "mediaId": ""
+    }
+  ],
+  "dedications": [
+    {
+      "msisdn": "defaultRBT",
+      "toneIds": [
+        "668641"
+      ]
+    }
+  ],
+  "giftInbox": [
+    {
+      "msisdn": "66628218873",
+      "giftTones": []
+    }
+  ],
+  "contents": [
+    {
+      "id": "668754",
+      "type": "1",
+      "cpName": "RS",
+      "title": "NA",
+      "status": NumberInt(1),
+      "accesschannel": "CCARE",
+      "serverReferenceCode": "5047321371628793135375552",
+      "serviceCode": "PPU00011900422",
+      "createdOn": "2021-08-13 01:32:15.472",
+      "updatedOn": "2021-08-13 01:32:15",
+      "activatedOn": "2021-08-13 01:32:15",
+      "chargeCode": "PPU636432603317312080",
+      "lastBilledPrice": 0,
+      "lastBilledDate": "2021-08-13 01:32:15",
+      "giftedBy": "",
+      "mainService": "SUB00012200193",
+      "addOnService": ""
+    },
+    {
+      "id": "668641",
+      "type": "1",
+      "cpName": "N-Content",
+      "title": "NA",
+      "status": NumberInt(1),
+      "accesschannel": "Starcopy",
+      "serverReferenceCode": "5047321361628795460969448",
+      "serviceCode": "PPU00006100001",
+      "createdOn": "2021-08-13 02:11:01.164",
+      "updatedOn": "2021-08-13 02:11:01",
+      "activatedOn": "2021-08-13 02:11:01",
+      "chargeCode": "PPU636406888855504260",
+      "lastBilledPrice": 20,
+      "lastBilledDate": "2021-08-13 02:11:01",
+      "giftedBy": "",
+      "mainService": "SUB00012200193",
+      "addOnService": ""
+    }
+  ],
+  "exclusionServiceList": [],
+  "extraParams": [
+    {
+      "paramName": "TEMPLATE_ID",
+      "paramValue": "1047003"
+    },
+    {
+      "paramName": "RETENTION_PACK_ENABLED",
+      "paramValue": "1"
+    },
+    {
+      "paramName": "MAX_SONGS",
+      "paramValue": "30"
+    },
+    {
+      "paramName": "CONTENT_CHARGE",
+      "paramValue": "1"
+    },
+    {
+      "paramName": "COMP_CODE",
+      "paramValue": "520018"
+    },
+    {
+      "paramName": "IMSI",
+      "paramValue": ""
+    }
+  ],
+  "promoPack": {
+    "restrictedDate": "20/04/2019"
+  }
+}

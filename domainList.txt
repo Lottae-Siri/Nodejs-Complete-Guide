@@ -1,0 +1,99 @@
+domainList = [
+  {
+    id: '7peaks',
+    sub_domain: [ [Object], [Object], [Object], [Object], [Object] ],
+    name: '7 Peaks'
+  },
+  { id: 'Adrianfuchs', sub_domain: [ [Object] ], name: 'Adrian fuchs' },
+  {
+    id: 'Buggy',
+    sub_domain: [ [Object], [Object], [Object], [Object], [Object] ],
+    name: 'Buggy'
+  },
+  {
+    id: 'Moritoring_Tools',
+    sub_domain: [ [Object] ],
+    name: 'Moritoring Tools'
+  },
+  {
+    id: 'Samart',
+    sub_domain: [ [Object], [Object], [Object], [Object], [Object] ],
+    name: 'Samart'
+  },
+  {
+    id: 'SmartConnect',
+    sub_domain: [ [Object] ],
+    name: 'SmartConnect'
+  },
+  { id: 'SwiftOneIoT', sub_domain: [ [Object] ], name: 'SwiftOneIoT' },
+  { id: 'Techm', sub_domain: [ [Object], [Object] ], name: 'Techm' },
+  {
+    id: 'asefa',
+    sub_domain: [ [Object], [Object], [Object] ],
+    name: 'asefa'
+  },
+  { id: 'cdg', sub_domain: [ [Object], [Object] ], name: 'CDG' },
+  {
+    id: 'demo1',
+    sub_domain: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    name: 'demo1'
+  },
+  { id: 'dtc', sub_domain: [ [Object] ], name: 'DTC' },
+  { id: 'edison', sub_domain: [ [Object] ], name: 'EDISON motor' },
+  { id: 'eexme', sub_domain: [ [Object] ], name: 'eexme' },
+  { id: 'energyIoT', sub_domain: [ [Object] ], name: 'energyIoT' },
+  { id: 'ev_box', sub_domain: [ [Object] ], name: 'EV_BOX' },
+  { id: 'eva1234', sub_domain: [ [Object], [Object] ], name: 'eva' },
+  { id: 'exxme', sub_domain: [ [Object] ], name: 'EXXME' },
+  { id: 'handysense', sub_domain: [ [Object] ], name: 'Handy Sense' },
+  { id: 'jumbo_elec', sub_domain: [ [Object] ], name: 'Jumbo Elec' },
+  { id: 'kitforward', sub_domain: [ [Object] ], name: 'kitforward' },
+  { id: 'ktc', sub_domain: [ [Object] ], name: 'KTC' },
+  {
+    id: 'kuijung',
+    sub_domain: [ [Object], [Object], [Object], [Object], [Object] ],
+    name: 'kuijung'
+  },
+  {
+    id: 'logisenses',
+    sub_domain: [ [Object], [Object], [Object] ],
+    name: 'logisenses'
+  },
+  { id: 'loxbit', sub_domain: [ [Object] ], name: 'loxbit' },
+  { id: 'mdb', sub_domain: [ [Object] ], name: 'mdb' },
+  { id: 'muvmi', sub_domain: [ [Object] ], name: 'Muvmi' },
+  { id: 'nb_iot', sub_domain: [ [Object] ], name: 'NB-IoT' },
+  { id: 'new_domain', sub_domain: [ [Object] ], name: 'new_domain' },
+  {
+    id: 'novagreen',
+    sub_domain: [ [Object], [Object] ],
+    name: 'NovaGreen'
+  },
+  { id: 'osd', sub_domain: [ [Object] ], name: 'OSD' },
+  { id: 'pp_ontime', sub_domain: [ [Object] ], name: 'PP Ontime' },
+  { id: 'pre_sale', sub_domain: [ [Object] ], name: 'Pre Sale' },
+  { id: 'samtel', sub_domain: [ [Object] ], name: 'samtel' },
+  { id: 'thaivan', sub_domain: [ [Object] ], name: 'thaivan' },
+  {
+    id: 'tnvsk-main',
+    sub_domain: [ [Object], [Object], [Object] ],
+    name: 'tnvsk-main'
+  },
+  {
+    id: 'training',
+    sub_domain: [ [Object], [Object], [Object] ],
+    name: 'TrainingDomain'
+  },
+  { id: 'vstecs', sub_domain: [ [Object] ], name: 'vstecs' },
+  {
+    id: 'winai',
+    sub_domain: [ [Object], [Object] ],
+    name: 'test device'
+  }
+]
